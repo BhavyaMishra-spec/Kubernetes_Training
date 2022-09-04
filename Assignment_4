@@ -1,9 +1,28 @@
 Voting App
 
-Commands :
+Commands Used :-
 
-git clone https://github.com/ashishrpandey/example-voting-app
-cd /root/example-voting-app/k8s-specifications
-kubectl delete all --all
-kubectl apply -f .
-kubectl get all
+-> git clone https://github.com/ashishrpandey/example-voting-app
+-> cd /root/example-voting-app/k8s-specifications
+-> kubectl delete all --all
+-> kubectl apply -f .
+-> kubectl get all
+
+
+My observations :- 
+
+After deleting the pods :
+
+1) What happened after deleting voting pod.
+   -> Command :- kubectl delete pods vote-94849dc97-pstxb
+   -> The voting application was working fine.
+   -> A new pod was created with the name vote-94849dc97-99b2p earlier it was vote-94849dc97-pstxb .
+   
+   
+ 2) What happened after deleting worker pod.
+    -> Command :- kubectl delete pods worker-dd46d7584-mrmzh
+    -> The voting application was working fine.
+    -> A new pod was created with the name worker-dd46d7584-6skhc earlier it was worker-dd46d7584-mrmzh
+
+3) What happened after db pod deletion.
+   -> Command:- 
