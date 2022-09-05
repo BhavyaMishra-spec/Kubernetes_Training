@@ -69,7 +69,44 @@ Snaphort of code :-
       vote-94849dc97-99b2p      1/1     Running   0          66m
       worker-dd46d7584-6skhc    1/1     Running   1          62m
 
-Some Jargons learnt till now:
+Some Jargons learnt till now:-
+
+   1. Docker   
+      -> Introduction
+      -> Image and Container creation
+      -> 
+      
+   2. Introduction to Microservices
+      -> Architecture
+      -> Deploying microservices on containers
+      
+   3. Kubernates
+      -> Introduction
+      -> Architecture
+      -> Cluster installation
+      -> PODS (Creation and deletion)
+      -> Node
+      -> Namespaces
+      -> Labels
+      -> Controllers
+              * Replication Controller (RC)
+              * Replica Set
+              * Daemon Set
+              * Job
+                 -> Batch Job
+                 -> Cron Job
+      -> Services
+            * ClusterIP
+            * NodePort
+            * Load Balance
+            * Endpoints
+            
+      -> Deployment
+      -> Rolling Update
+
+
+              
+
 
 
 
