@@ -8,7 +8,6 @@ Commands Used :-
 -> kubectl apply -f .
 -> kubectl get all
 
-
 My observations :- 
 
 1) What happened after deleting voting pod.
