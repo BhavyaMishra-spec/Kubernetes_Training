@@ -72,9 +72,8 @@ Snaphort of code :-
 Some Jargons learnt till now:-
 
    1. Docker   
-      -> Introduction
+      -> Introduction and Architecture
       -> Image and Container creation
-      -> 
       
    2. Introduction to Microservices
       -> Architecture
@@ -100,6 +99,5 @@ Some Jargons learnt till now:-
             * NodePort
             * Load Balance
             * Endpoints
-            
       -> Deployment
       -> Rolling Update
