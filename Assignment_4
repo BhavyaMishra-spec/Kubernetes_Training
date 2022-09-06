@@ -26,7 +26,7 @@ My observations :-
    -> After deleting the db pod,we can see that db pod is still running with new name.
    -> The worker pod again got started.
 
-   * Snaphort of code :- 
+   * Snapshort of code :- 
 
    [root@ip-172-31-1-250 k8s-specifications]# kubectl delete pods db-b54cd94f4-9sq7z
    pod "db-b54cd94f4-9sq7z" deleted
